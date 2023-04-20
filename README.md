@@ -1,7 +1,7 @@
 # Coffee-Machine
 This program simulates a coffee machine that can dispense three types of coffee: espresso, latte, and cappuccino. Users can choose to buy a coffee, fill the machine with supplies, take the money in the machine, or check the remaining supplies.
 
-##Installation and Usage
+## Installation and Usage
 
 To run the program, you need to have Node.js installed. Clone the repository to your local machine and navigate to the project directory. Then, run the following command to start the program:
 
@@ -9,7 +9,7 @@ Copy code
 node index.js
 The program will prompt you to enter an action: buy, fill, take, remaining, or exit. Enter the action you want to perform and follow the prompts.
 
-##Input/Output
+## Input/Output
 
 When you start the program, you will see the following prompt:
 
@@ -53,11 +53,11 @@ I give you $7
 Write action (buy, fill, take, remaining, exit):
 exit
 
-##Resources
+## Resources
 
 This program uses the sync-input library to read user input synchronously.
 
-##Contribution Guidelines
+## Contribution Guidelines
 
 This project is not open source, but feel free to fork it and modify it for your own use. If you find any issues, please report them to the original author.
 
