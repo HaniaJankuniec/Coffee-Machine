@@ -5,29 +5,25 @@ This program simulates a coffee machine that can dispense three types of coffee:
 
 To run the program, you need to have Node.js installed. Clone the repository to your local machine and navigate to the project directory. Then, run the following command to start the program:
 
-Copy code
-node index.js
+``` node index.js ```
+
 The program will prompt you to enter an action: buy, fill, take, remaining, or exit. Enter the action you want to perform and follow the prompts.
 
 ## Input/Output
 
 When you start the program, you will see the following prompt:
 
-vbnet
-Copy code
-Write action (buy, fill, take, remaining, exit):
+``` Write action (buy, fill, take, remaining, exit): ```
+
 Enter one of the actions and press enter. Here are some examples of input/output:
 
-vbnet
-Copy code
-Write action (buy, fill, take, remaining, exit):
-remaining
+Write action (buy, fill, take, remaining, exit): 
 The coffee machine has:
 400 ml of water
 540 ml of milk
 120 g of coffee beans
 9 disposable cups
-$550 of money
+$550 of money 
 
 Write action (buy, fill, take, remaining, exit):
 buy
