@@ -5,7 +5,9 @@ This program simulates a coffee machine that can dispense three types of coffee:
 
 To run the program, you need to have Node.js installed. Clone the repository to your local machine and navigate to the project directory. Then, run the following command to start the program:
 
-``` node index.js ```
+``` JavaScript
+node index.js 
+```
 
 The program will prompt you to enter an action: buy, fill, take, remaining, or exit. Enter the action you want to perform and follow the prompts.
 
@@ -13,11 +15,15 @@ The program will prompt you to enter an action: buy, fill, take, remaining, or e
 
 When you start the program, you will see the following prompt:
 
-``` Write action (buy, fill, take, remaining, exit): ```
+``` JavaScript
+Write action (buy, fill, take, remaining, exit): 
+```
 
 Enter one of the actions and press enter. Here are some examples of input/output:
 
+``` JavaScript
 Write action (buy, fill, take, remaining, exit): 
+remaining
 The coffee machine has:
 400 ml of water
 540 ml of milk
@@ -48,6 +54,7 @@ I give you $7
 
 Write action (buy, fill, take, remaining, exit):
 exit
+```
 
 ## Resources
 
@@ -56,6 +63,3 @@ This program uses the sync-input library to read user input synchronously.
 ## Contribution Guidelines
 
 This project is not open source, but feel free to fork it and modify it for your own use. If you find any issues, please report them to the original author.
-
-
-
